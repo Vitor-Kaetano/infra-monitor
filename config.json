@@ -1,0 +1,9 @@
+{
+  "services": ["sshd", "docker"],
+  "ports": [22, 80, 443],
+  "thresholds": {
+    "cpu": {"warning": 70, "critical": 85},
+    "memory": {"warning": 70, "critical": 85},
+    "disk": {"warning": 80, "critical": 90}
+  }
+}
